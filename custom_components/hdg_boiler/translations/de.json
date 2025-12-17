@@ -200,6 +200,12 @@
       "hk1_vorlauftemperatur_soll": {
         "name": "HK1 Vorlauftemperatur Soll"
       },
+      "hk2_vorlauftemperatur_ist": {
+        "name": "HK2 Vorlauftemperatur Ist"
+      },
+      "hk2_vorlauftemperatur_soll": {
+        "name": "HK2 Vorlauftemperatur Soll"
+      },
       "kessel_haupt_betriebsart": {
         "name": "Kessel Haupt-Betriebsart",
         "state": {
@@ -263,6 +269,24 @@
           "tag": "Tagbetrieb"
         }
       },
+      "hk2_mischer_status_text": {
+        "name": "HK2 Mischer Status"
+      },
+      "hk2_pumpe_status_text": {
+        "name": "HK2 Pumpe Status"
+      },
+      "hk2_aktuelle_betriebsart": {
+        "name": "HK2 Aktuelle Betriebsart",
+        "state": {
+          "abgesenkt": "Abgesenkt",
+          "aus": "Aus",
+          "nacht": "Nachtbetrieb",
+          "party": "Partybetrieb",
+          "sommer": "Sommerbetrieb",
+          "standard": "Standard",
+          "tag": "Tagbetrieb"
+        }
+      },      
       "sprache": {
         "name": "Sprache",
         "state": {
@@ -654,6 +678,59 @@
       "hk1_frostschutz_temp": {
         "name": "HK1 Frostschutz Temperatur"
       },
+       "hk2_bezeichnung": {
+        "name": "HK2 Bezeichnung"
+      },
+      "hk2_soll_normal": {
+        "name": "HK2 Tagbetrieb Raumtemperatur Soll"
+      },
+      "hk2_parallelverschiebung": {
+        "name": "HK2 Parallelverschiebung"
+      },
+      "hk2_raumeinflussfaktor": {
+        "name": "HK2 Raumeinflussfaktor"
+      },
+      "hk2_vorlauftemperatur_minimum": {
+        "name": "HK2 Vorlauftemperatur Minimum"
+      },
+      "hk2_vorlauftemperatur_maximum": {
+        "name": "HK2 Vorlauftemperatur Maximum"
+      },
+      "hk2_raumeinheit_status": {
+        "name": "HK2 Raumeinheit Status",
+        "state": {
+          "keine": "Keine",
+          "raumbedien_geraet_bus": "Raumbedien- gerät BUS",
+          "raumbedien_geraet_bus_nlm": "Raumbedien- gerät BUS NLM",
+          "raumbedien_geraet_light": "Raumbedien- gerät LIGHT",
+          "raumtempera_turfuehler": "Raumtempera- turfühler"
+        }
+      },
+      "hk2_offset_raumfuhler": {
+        "name": "HK2 Offset Raumfühler"
+      },
+      "hk2_warmequelle": {
+        "name": "HK2 Wärmequelle",
+        "state": {
+          "keine": "Keine",
+          "kessel": "Kessel",
+          "netzpumpe_1": "Netzpumpe 1",
+          "netzpumpe_2": "Netzpumpe 2",
+          "netzpumpe_3": "Netzpumpe 3",
+          "puffer_1": "Puffer 1",
+          "puffer_2": "Puffer 2",
+          "verband": "Verband"
+        }
+      },
+      "hk2_mischerlaufzeit_maximum": {
+        "name": "HK2 Mischerlaufzeit Maximum"
+      },
+      "hk2_pumpe_ein_freigabetemperatur": {
+        "name": "HK2 Pumpe Ein Freigabetemperatur"
+      },
+      "hk2_frostschutz_temp": {
+        "name": "HK2 Frostschutz Temperatur"
+      },     
       "heizgrenze_sommer": {
         "name": "Heizgrenze Sommer"
       },
@@ -662,6 +739,14 @@
       },
       "hk1_restwarme_aufnehmen": {
         "name": "HK1 Restwärme Aufnehmen",
+        "state": {
+          "ja": "Ja",
+          "nein": "Nein",
+          "ein": "Ein"
+        }
+      },
+      "hk2_restwarme_aufnehmen": {
+        "name": "HK2 Restwärme Aufnehmen",
         "state": {
           "ja": "Ja",
           "nein": "Nein",
@@ -814,6 +899,9 @@
       },
       "hk1_temp_quelle_status_wert": {
         "name": "HK1 Temp Quelle Status Wert"
+      },
+      "hk2_temp_quelle_status_wert": {
+        "name": "HK2 Temp Quelle Status Wert"
       }
     },
     "number": {
@@ -834,6 +922,24 @@
       },
       "hk1_eco_absenken_aus_aussentemperatur": {
         "name": "HK1 Eco Absenken Aus Außentemperatur"
+      },
+        "hk2_soll_normal": {
+        "name": "HK2 Tagbetrieb Raumtemperatur Soll"
+      },
+      "hk2_parallelverschiebung": {
+        "name": "HK2 Parallelverschiebung"
+      },
+      "hk2_steilheit": {
+        "name": "HK2 Steilheit"
+      },
+      "hk2_pumpe_aus_aussentemperatur": {
+        "name": "HK2 Pumpe Aus Außentemperatur"
+      },
+      "hk2_soll_absenk": {
+        "name": "HK2 Soll Absenk"
+      },
+      "hk2_eco_absenken_aus_aussentemperatur": {
+        "name": "HK2 Eco Absenken Aus Außentemperatur"
       }
     },
     "select": {
