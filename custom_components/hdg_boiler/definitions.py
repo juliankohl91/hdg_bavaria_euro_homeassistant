@@ -7,6 +7,8 @@ dictionary, which maps specific HDG API node IDs and their characteristics to
 corresponding Home Assistant entity configurations.
 """
 
+
+
 from __future__ import annotations
 
 __version__ = "0.1.15"
