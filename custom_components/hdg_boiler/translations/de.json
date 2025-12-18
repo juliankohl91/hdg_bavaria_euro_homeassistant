@@ -678,6 +678,16 @@
       "hk1_frostschutz_temp": {
         "name": "HK1 Frostschutz Temperatur"
       },
+      "heizkreis_2_system": {
+        "name": "Heizkreis 2 System",
+        "state": {
+          "fussboden": "Fußboden",
+          "heizkoerper": "Heizkörper",
+          "keines": "Keines",
+          "konstant": "Konstant",
+          "ungeregelt": "Ungeregelt"
+        }
+      },  
        "hk2_bezeichnung": {
         "name": "HK2 Bezeichnung"
       },
